@@ -1,2 +1,2 @@
 # Dirichlet-Distribuition
-Playing with the Dirichlet distribuition to how the alpha affect the distribuiton
+Playing around with the Dirichlet distribuition to how the alpha affect the distribuiton
