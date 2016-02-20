@@ -1,0 +1,10 @@
+library(entropy)
+library(infotheo)
+data<-longley
+dput(longley)
+standardize<-function(x){
+  y<-(x-mean(x))/sqrt(var(x))
+  return(y)
+}
+longley.sd<-lapply(longley,standardize)
+lapply(longley.sd,var)
